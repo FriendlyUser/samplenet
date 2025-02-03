@@ -1,1 +1,7 @@
 /.env
+obj
+bin/*
+bin/
+bin/Debug
+bin/Debug/net8.0/
+obj/Debug/
