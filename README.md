@@ -16,3 +16,9 @@ curl -X GET "https://3000-idx-samplenet-1738378997909.cluster-lqnxvk7thvfw4wbons
 Another endpoint
 
 https://3000-idx-samplenet-1738378997909.cluster-lqnxvk7thvfw4wbonsercicksm.cloudworkstations.dev/api/YoutubeTranscriptApiFree/OoNw9YP991w
+
+Make sure we add in
+
+https://github.com/gunpal5/Google_GenerativeAI
+
+To see how it can perform.

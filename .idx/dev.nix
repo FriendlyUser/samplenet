@@ -6,8 +6,7 @@
   # Here we add the .NET SDK along with openai-whisper, ffmpeg_6-full, and yt-dlp.
   packages = [
     pkgs.dotnet-sdk_8
-    pkgs.openai-whisper
-    pkgs.ffmpeg_6-full
+
   ];
 
   # Set any environment variables you need in the workspace.
