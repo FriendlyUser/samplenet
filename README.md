@@ -12,3 +12,7 @@ dotnet watch --urls=http://localhost:3000
 TO test use url
 
 curl -X GET "https://3000-idx-samplenet-1738378997909.cluster-lqnxvk7thvfw4wbonsercicksm.cloudworkstations.dev/api/WhisperTranscript/suH_-khGMmI"
+
+Another endpoint
+
+https://3000-idx-samplenet-1738378997909.cluster-lqnxvk7thvfw4wbonsercicksm.cloudworkstations.dev/api/YoutubeTranscriptApiFree/OoNw9YP991w
