@@ -3,6 +3,10 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+using GenerativeAI;
+
+
+
 // Load environment variables (if using a .env file)
 Env.Load();
 
@@ -10,6 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Register controllers with the DI container.
 builder.Services.AddControllers();
+
 
 var port = Environment.GetEnvironmentVariable("PORT") ?? "3000";
 var url = $"http://0.0.0.0:{port}";
